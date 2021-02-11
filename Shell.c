@@ -23,7 +23,7 @@ int main(int argc, char * argv[]) {
         //demande a l'ulilisateur a tapez la cammandes
         fgets(str, sizeof(str), stdin);
         //pour les flux de sortie
-        __fpurge(stdin);
+        fpurge(stdin);
 
         //mettre une fin a la cammande saisie 
         for (k=0; k<strlen(str); k++) {
