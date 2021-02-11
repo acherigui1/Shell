@@ -31,11 +31,6 @@ int main(int argc, char * argv[]) {
                 str[k]='\0';
             }
         }
-        //enregistrer le historique
-        FILE *historique;
-        historique=fopen("historique.txt","a");
-        fprintf(historique,"\n %s",str);
-        fclose(historique);
 
         
         char * tab[15];
